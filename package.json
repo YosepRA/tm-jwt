@@ -1,0 +1,25 @@
+{
+  "name": "tm-jwt",
+  "version": "1.0.0",
+  "description": "TraveryMedia - API authentication using JWT.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosepRA/tm-jwt.git"
+  },
+  "author": "Yosep Ryan Agusta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosepRA/tm-jwt/issues"
+  },
+  "homepage": "https://github.com/YosepRA/tm-jwt#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "parse-bearer-token": "^1.0.1"
+  }
+}
